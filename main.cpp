@@ -24,8 +24,8 @@ int hitungTotalRekursif(const int pengeluaran[], int index, int total = 0) {
 }
 
 int main() {
-    const int ukuran = 40000;                           // Ukuran dataset (array pengeluaran) sebesar 10.000 elemen
-    const int jumlahUlang = 100;                        // Jumlah pengulangan untuk pengukuran waktu (100 kali)
+    const int ukuran = 40000;                           // Ukuran dataset (array pengeluaran) sebesar 40.000 elemen --> (Opsional/Bisa diubah)
+    const int jumlahUlang = 100;                        // Jumlah pengulangan untuk pengukuran waktu (100 kali) --> (Opsional/Bisa diubah)
 
     int pengeluaran[ukuran];                            // Deklarasi array statis untuk menyimpan data pengeluaran
     cout << "Inisialisasi dataset...\n";                // Informasi awal untuk debugging
