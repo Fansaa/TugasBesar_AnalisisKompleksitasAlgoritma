@@ -2,8 +2,8 @@
 #include <iomanip>     // Untuk format output (fixed, setprecision)
 #include <chrono>      // Untuk mengukur waktu eksekusi
 
-using namespace std;       // Menghindari penulisan std:: di setiap objek/kelas dari namespace std
-using namespace chrono;    // Menghindari penulisan chrono:: di objek terkait pengukuran waktu
+using namespace std;       
+using namespace chrono;    
 
 // Fungsi Iteratif untuk menghitung total pengeluaran
 int hitungTotalIteratif(const int pengeluaran[], int ukuran) {
